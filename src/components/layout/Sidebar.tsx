@@ -7,6 +7,7 @@ import {
   FaBoxes,
   FaTruck,
   FaWarehouse,
+  FaUsers,
   FaSignOutAlt,
   FaBars,
   FaTimes,
@@ -18,6 +19,7 @@ const navItems = [
   { label: "Inventory", icon: <FaBoxes />, href: "/inventory" },
   { label: "Shipments", icon: <FaTruck />, href: "/shipments" },
   { label: "Warehouses", icon: <FaWarehouse />, href: "/warehouses" },
+  { label: "Suppliers", icon: <FaUsers />, href: "/suppliers" },
 ];
 
 export default function Sidebar() {
